@@ -1,7 +1,7 @@
 import requests,random,base64
 from uuid import uuid4 as uid
 from user_agent import generate_user_agent as ua
-scrf=input('csrf token (get it from console) : ')
+csrf=input('csrf token (get it from console) : ')
 email=input('email : ')
 user='whisper'+str(random.randint(10000,99999))
 bd=random.randint(1,28)
